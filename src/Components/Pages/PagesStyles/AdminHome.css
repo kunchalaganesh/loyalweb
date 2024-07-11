@@ -1,0 +1,1485 @@
+.adminHomeMainBox {
+  /* position: relative; */
+  width: 100%;
+}
+.adminMainBodyBox {
+  padding-top: 130px;
+}
+.adminHomeMainBox h1 {
+  margin-top: 1rem;
+}
+.adminContentbox {
+  /* Needs to comment height once done with the pages */
+  min-height: 100vh;
+  /* changes made */
+  width: 85%;
+  transition: width ease-in-out 0.5s;
+  /* width: 100%; */
+  position: absolute;
+  right: 0;
+  /* left: 0; */
+  top: 3rem;
+  /* bottom: 0; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 0.5rem;
+  /* border: 2px solid yellow; */
+  /* padding-left: 20%; */
+  padding-left: 0;
+  padding-top: 2rem;
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.adminAddCategoryMainbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.adminAddCategoryMainbox form {
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  /* border: 1px solid gray; */
+  /* box-shadow: 1px 7px 20px black; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  justify-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  align-items: center;
+  text-align: left;
+  margin: 1rem;
+  width: 30%;
+  border-radius: 10px;
+  margin-top: 3rem;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.addProductHeight {
+  height: auto;
+}
+.adminAddCategoryMainbox form h3 {
+  font-size: 15px;
+  align-self: flex-start;
+  margin: 20px;
+  padding: 1rem;
+  /* color: black; */
+  font-weight: bolder;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  background-color: var(--primary);
+  color: white;
+  /* border: 1px solid var(--primary); */
+  width: 100%;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.adminAddCategoryMainbox label {
+  width: 100%;
+  font-size: 16px;
+  /* color: rgba(110, 110, 110); */
+  color: grey;
+  font-weight: 600;
+  margin-left: 10%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0.25rem;
+  text-align: left;
+}
+.adminAddCategoryMainbox label {
+  font-size: 14px;
+}
+.adminAddCategoryMainbox input,
+.adminAddCategoryMainbox select,
+.adminAddCategoryMainbox textarea {
+  box-sizing: border-box;
+  width: 90%;
+  padding: 0.5rem;
+  margin: 0.5rem 1rem;
+  font-size: 15px;
+  color: grey;
+}
+.adminAddCategoryMainbox input:focus,
+.adminAddCategoryMainbox select:focus,
+.adminAddCategoryMainbox textarea:focus {
+  outline: none;
+}
+.adminAddCategoryMainBox2 {
+  padding: 0px 40px;
+}
+textarea {
+  height: 7rem;
+}
+.bulkStockAddProductDetailsItem button {
+  padding: 10px;
+  /* margin-top: 2rem; */
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  /* margin-left: 40%; */
+  /* border-color: green; */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  transition: background-color 550ms ease-in-out;
+}
+.bulkStockAddProductDetailsItem button:hover,
+.bulkStockAddProductDetailsItem button:focus {
+  background-color: var(--tertiary);
+  color: var(--primary);
+  /* outline: none; */
+}
+
+.adminDashBoardChartBox {
+  /* width: 100%; */
+  /* height: 100vh; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: space-around;
+}
+.adminDashboardBarChart {
+  width: 85%;
+  /* height: 500px; */
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.adminDashboardPieChart {
+  width: 300px;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.adminDailyRateTableBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: white; */
+}
+.adminDailyRateTableBox table {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.adminDailyRateTableBox table th {
+  padding: 0.5rem 2rem;
+  color: rgba(0, 0, 0, 0.8);
+  /* border: 1px solid rgba(128, 128, 128, 0.2); */
+  font-size: 20px;
+  background-color: rgba(54, 162, 235, 0.2);
+  border: 1px solid rgba(54, 162, 235, 1);
+}
+.adminDailyRateTableBox table td {
+  /* padding: 0.2rem; */
+  /* margin: 1rem; */
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.84);
+  background-color: rgba(54, 162, 235, 0.05);
+  border: 1px solid rgba(54, 162, 235, 1);
+}
+.dailyRateFormBox {
+  display: flex;
+}
+.dailyRateFormBox input {
+  width: 5rem;
+  margin: 0 1rem;
+}
+.adminDailyRateTableBox table button {
+  align-self: center;
+}
+
+.newBox2 {
+  z-index: 2;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+}
+.adminAllProductsFilterBtn {
+  width: 200px;
+  padding: 0.5rem;
+  margin: 2rem;
+  border-color: green;
+}
+.adminProductCard {
+  /* width: 17vw; */
+  padding-inline: 1rem;
+  /* height: 20vh; */
+  margin: 0.5rem;
+
+  background-color: white;
+}
+
+.adminProductCard p {
+  margin: 0.5rem 0;
+}
+.adminProductCardBox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.previewBoxData h3 {
+  font-weight: 500;
+  margin: 1rem 0;
+  color: black;
+}
+.previewBoxData span {
+  /* color: rgba(0, 0, 0, 0.65); */
+  font-weight: 400;
+  margin-left: 1rem;
+}
+.productCardImageBoxSmallImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productCardImageBoxSmallImages img {
+  margin: 0.1rem;
+  padding: 0.2rem;
+  /* width: 3rem; */
+}
+.adminLoginPageMain {
+  width: 100vw;
+  height: 90vh;
+  color: white;
+  background-color: #1a4c2d;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  /* justify-content: center; */
+  align-items: center;
+}
+.adminLoginPageMain input,
+.adminLoginPageMain label,
+.adminLoginPageMain button {
+  padding: 0.5rem;
+
+  font-weight: bold;
+  /* margin-bottom: 0.5rem; */
+  /* width: 15%; */
+}
+.adminLoginForm {
+  background-color: white;
+  margin-top: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.adminLoginPageMain button {
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+  background-color: rgb(236, 154, 2);
+  border: none;
+  /* background-color: rgb(255, 250, 220); */
+  cursor: pointer;
+}
+.adminLoginPageMain button:hover,
+.adminLoginPageMain button:focus {
+  /* background-color: rgb(250, 240, 185); */
+  transition: background-color 300ms ease-in-out;
+  color: white;
+  background-color: rgb(255, 166, 0);
+}
+.addProductMain form {
+  width: 95vw;
+  /* height: 112rem; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* box-sizing: border-box; */
+}
+.addProductDetailsUpperBox {
+  width: 92%;
+  /* box-sizing: border-box; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border-bottom-width: 80%; */
+}
+.addProductDetailsBox {
+  /* width: 95%; */
+  display: grid;
+  justify-items: flex-end;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.addProductMain input,
+.addProductMain select,
+.addProductMain textarea {
+  width: 20rem;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #ced4da;
+  box-shadow: 0px 0px 1px rgba(2, 168, 181, 0.2);
+}
+.addProductMain input:focus,
+.addProductMain select:focus,
+.addProductMain textarea:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.addProductMain button {
+  /* margin: 2rem; */
+  /* padding: 20px; */
+  width: 20rem;
+}
+.makingBoxAddProduct {
+  display: grid;
+  grid-gap: 10px;
+  /* width: 20rem; */
+  grid-template-columns: repeat(2, 1fr);
+}
+.makingBoxAddProduct select,
+.makingBoxAddProduct input {
+  width: 100%;
+}
+.makingBoxAddProduct label {
+  width: 100%;
+}
+.addProductSupplierDetailsBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addProductSupplierDetailsBox p {
+  margin-inline: 20px;
+}
+.allCustomersTableMain {
+  /* width: 200%; */
+  height: 150vh;
+  /* position: static; */
+  box-sizing: border-box;
+
+  left: 0;
+  bottom: 0;
+}
+.allCustomersTable table {
+  padding: 2rem 1rem;
+  width: 100%;
+  background-color: white;
+  font-size: 14px;
+}
+.allCustomersTable tbody td {
+  padding: 1rem;
+  /* border: 1px solid grey; */
+}
+.allCustomersTable tbody tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.allCustomersTable table thead {
+  padding-bottom: 1rem;
+}
+.allCustomersTable thead tr th {
+  padding: 1rem;
+}
+
+.adminContentbox2 {
+  width: 97vw;
+  position: absolute;
+  transition: width ease-in-out 0.75s;
+  /* right: 0; */
+  /* left: 0; */
+  top: 3rem;
+  /* bottom: 0; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 0.5rem;
+  /* border: 2px solid yellow; */
+
+  /* This is the Line which handles full scre3n option for cs and order tables/ */
+  padding-top: 2rem;
+  /* padding-left: 20%; */
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.updateOrderStatusAdminMainBox {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  background-color: rgba(128, 128, 128, 0.85);
+  position: fixed;
+  /* left: 40%; */
+  /* top: 35%; */
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.updateOrderStatusAdminBox {
+  width: 35rem;
+  height: 20rem;
+  border: 1px solid red;
+  background-color: white;
+}
+.adminOrderCardMainBox {
+  /* width: 80%; */
+  /* background-color: #1a4c2d; */
+  background-color: white;
+  /* height: 100%; */
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.adminOrderCardItems {
+  /* width: 100%; */
+  /* height: 50px; */
+  border: 1px solid red;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.adminOrderCardItems p {
+  margin: 0 1rem;
+}
+.adminProductDetailsMainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 2rem 0; */
+  margin-bottom: 20px;
+}
+.adminProductDetailDetailsBox {
+  text-align: left;
+  /* padding: 30px; */
+  padding: 10px;
+  border-radius: 5px;
+  width: 65%;
+  background-color: white;
+}
+.adminProductDetailDetailsBoxItems {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* margin: 1rem 0; */
+  font-size: 14px;
+  color: var(--fontTertiary);
+  font-weight: bold;
+}
+.adminProductDetailDetailsBox p,
+.adminProductDetailDetailsBox h2 {
+  padding: 2px 15px;
+  padding-left: 0;
+  margin-left: 10px;
+  margin: 10px;
+}
+/* .adminProductDetailDetailsBox h2:hover,  */
+/* .adminProductDetailDetailsBox p:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 85%;
+  padding-left: 5px;
+} */
+
+/* .adminProductDetailDetailsBoxEditItems:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 85%;
+  padding-left: 5px;
+}
+.adminProductDetailDetailsBoxEditItemsBarcode:hover {
+  background-color: red;
+} */
+.adminProductDetailsInfoBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 10px;
+  /* justify-content: flex-end; */
+  /* border-radius: 2px; */
+  align-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* GPT */
+.AdminGridContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 95%;
+}
+.row h4 {
+  color: grey;
+  font-size: 14px;
+}
+.col-3 {
+  flex-basis: 22%;
+  /* background-color: lightblue; */
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  /* margin-inline: 2rem; */
+}
+
+.col-6 {
+  margin-top: 2rem;
+  flex-basis: 48%;
+  /* background-color: lightgreen; */
+  padding: 10px;
+}
+
+.col-12 {
+  flex-basis: 98%;
+  background-color: lightpink;
+  padding: 10px;
+}
+.adminHomePageMainLogos {
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid grey; */
+  padding: 7px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adminMainPageHomeItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bulkStockAddProductDetailsBox {
+  display: grid;
+  padding-bottom: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 95%;
+  box-sizing: border-box;
+  margin-top: 2rem;
+  column-gap: 40px;
+  row-gap: 10px;
+  justify-content: space-evenly;
+  transition: all ease-in-out 0.5s;
+}
+.bulkStockAddProductDetailsBoxHalfHeight {
+  height: 100px;
+  overflow: hidden;
+}
+.bulkStockAddProductDetailsBoxFullHeight {
+  height: auto;
+}
+.bulkStockAddProductDetailsItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* .bulkStockAddProductDetailsItem { */
+/* width: 11%; */
+/* overflow: hidden; */
+/* } */
+.bulkStockAddProductDetailsItem select,
+.bulkStockAddProductDetailsItem label,
+.bulkStockAddProductDetailsItem input {
+  width: 100px;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 0;
+}
+.bulkStockAddProductDetailsItem select,
+.bulkStockAddProductDetailsItem input {
+  outline: none;
+  border: 1px solid #ced4da;
+  box-shadow: 0px 0px 1px rgba(2, 168, 181, 0.2);
+}
+.bulkStockAddProductDetailsItem select:focus,
+.bulkStockAddProductDetailsItem label:focus,
+.bulkStockAddProductDetailsItem input:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.bulkStockAddProductDetailsPhotoBox {
+  width: 95%;
+  height: 120px;
+  margin: 2rem 0;
+  /* border: 2px solid grey; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 0%,
+    rgba(79, 79, 79, 1) 61%,
+    rgba(207, 205, 205, 1) 100%
+  );
+  transition: opacity ease-in-out 0.3s;
+  transition: color ease-in-out 0.5s;
+  transition: background-color ease-in-out 1s;
+}
+.bulkStockAddProductDetailsPhotoBox:hover {
+  opacity: 0.9;
+  color: white;
+  background-color: black;
+  background: black;
+  font-size: 101%;
+}
+.bulkProductAddingTableMain {
+  display: flex;
+  /* padding-left: 10px; */
+
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  width: 95%;
+  /* overflow: hidden; */
+}
+.bulkProductAddingTableMain table {
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+.bulkProductAddingTableMain table tbody {
+  /* background-color: rgb(189, 185, 185); */
+  color: white;
+  /* background-color: var(--tertiary); */
+}
+.bulkProductAddingTableMain table th {
+  font-size: 12px;
+  padding: 0.5rem;
+  width: calc(100vw / 28);
+  /* background-color: rgb(107, 107, 107); */
+  color: white;
+  background-color: var(--primary);
+}
+.bulkProductAddingTableMain2 table th {
+  width: calc(100vw / 10);
+}
+/* .bulkProductAddingTableMain table tbody tr,
+.bulkProductAddingTableMain thead {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-auto-flow: column;
+} */
+.bulkProductAddingTableMain table input {
+  width: calc(100vw / 22);
+  margin: 0.5rem;
+
+  padding: 0.5rem;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid #ced4da;
+  box-shadow: 0px 0px 1px rgba(2, 168, 181, 0.2);
+}
+.bulkProductAddingTableMain table input:focus,
+.bulkProductAddingTableMain table input:hover {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.bulkProductAddingTableMain button {
+  /* padding: 0.5rem 3rem; */
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  /* margin-top: 3rem; */
+  margin-bottom: 10px;
+  background-color: var(--primary);
+
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bulkProductAddingTableMain button:hover {
+  opacity: 0.8;
+}
+.bulkProductAddDeleteButton {
+  background-color: #cd485c;
+}
+.bulkProductAddDeleteButton:hover {
+  background-color: #cd485c;
+}
+.adminPartyTable {
+  font-size: normal;
+}
+.dailyRateFormTableBody form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+  background-color: transparent;
+}
+.dailyRateFormTableBody form input {
+  margin-left: 30%;
+  margin-top: 0%;
+  padding: 0.5rem;
+}
+.adminEditCategoryButtonBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.editCategoryPopBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editCategoryFormBox form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.editCategoryFormBox form input,
+.editCategoryFormBox form select {
+  width: 10rem;
+  margin: 1rem;
+  font-size: small;
+}
+.adminLoginPanelMainBox {
+  background-color: rgb(255, 250, 220);
+}
+.adminLoginPanelMainBox input {
+  background-color: rgba(255, 166, 0, 0.2);
+}
+.adminAllLabelledListButtonBox {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: green; */
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* position: fixed; */
+  right: 0;
+  top: 0;
+}
+.adminAllLabelledListButtonBox button {
+  width: 200px;
+  min-height: 30px;
+  /* margin: 10px; */
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: var(--tertiary);
+  color: var(--primary);
+  /* border: none; */
+  transition: all ease-in-out 0.3s;
+  border: 1px solid var(--primary);
+}
+.adminAllLabelledListButtonBox button:hover,
+.adminAllLabelledListButtonBox button:focus {
+  /* box-shadow: 0px 0px 5px var(--primary); */
+  background-color: var(--primary);
+  color: white;
+}
+.labelledListEditIcon {
+  color: #c14456;
+  cursor: pointer;
+}
+.labelledListEditIcon:hover {
+  color: #f1556c;
+}
+.adminInventoryFilterMainBox {
+  display: flex;
+  margin: 2rem;
+}
+.adminInventoryFilters {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  justify-content: flex-end;
+}
+.adminAllOrdersFilterBox {
+  width: 100%;
+  padding: 20px;
+  /* border: 2px solid green; */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.adminAllOrdersFilterBox input,
+.adminAllOrdersFilterBox select {
+  width: 150px;
+  margin-inline: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  padding: 5px;
+}
+.adminAllOrdersFilterBox input:focus,
+.adminAllOrdersFilterBox select:focus {
+  outline: none;
+}
+.adminAllOrdersTableMainBox table {
+  width: 100%;
+}
+.adminAllOrdersTableMainBox table thead th {
+  white-space: nowrap;
+}
+.adminAllOrderRightBox button {
+  width: 120px;
+  margin-inline: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.adminAllOrderRightBox button:nth-child(1) {
+  background-color: #f1556c;
+  color: white;
+  width: 150px;
+}
+.adminAllOrderRightBox button:nth-child(1):hover {
+  background-color: #cd485c;
+  border-color: #c14456;
+}
+.adminAllOrderRightBox button:nth-child(2):hover {
+  background-color: rgba(175, 175, 175, 0.5);
+  border-color: #c14456;
+}
+.adminAllOrderLeftBox {
+  display: flex;
+  align-items: center;
+}
+.adminAllOrdersOrderData:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0e7e68;
+}
+.adminOrderDetailsOuterBox1 {
+  width: 90%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  padding: 0 40px;
+  column-gap: 25px;
+}
+.adminOrderDetailsTrackingBox {
+  background-color: white;
+  padding: 25px;
+  height: 350px;
+}
+.adminOrderDetailsTrackingBox > *:not(:first-child) {
+  font-size: 14px;
+}
+.adminOrderDetailsTrackingBox p {
+  font-size: 14px;
+}
+.verticalOrderProgeressBox {
+  display: flex;
+  /* border: 2px solid red; */
+  /* justify-content: center; */
+  align-items: center;
+}
+.verticalOrderProgeressBar {
+  margin-top: 20px;
+  width: 6px;
+  height: 200px;
+  background-color: rgba(128, 128, 128, 0.5);
+  position: relative;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+.verticalOrderProgeressBarProgress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #1abc9c;
+  border-radius: 20px;
+  transition: height 0.5s ease-in-out;
+}
+.verticalOrderProgeressBarStatus {
+  padding-top: 10%;
+  height: 200px;
+  /* border: 2px solid red; */
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.adminOrderDetailsItemsMainBox {
+  width: 100%;
+  height: 350px;
+  padding: 25px;
+  background-color: white;
+}
+.adminOrderDetailsItemsMainBox table {
+  padding: 0;
+}
+.adminOrderDetailsItemsproductImage {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+.adminOrderDetailsItemsproductImage:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.adminOrderDetailsItemsMainBox table {
+  border-collapse: collapse;
+}
+
+.adminOrderDetailsItemsMainBox table thead {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.adminOrderDetailsItemsMainBox table thead tr th {
+  border: 2px solid rgba(128, 128, 128, 0.3);
+
+  /* text-align: center; */
+}
+.adminOrderDetailsItemsMainBox table tbody tr td:nth-child(1):hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.adminOrderDetailsItemsMainBox table tbody tr td {
+  border: 2px solid rgba(128, 128, 128, 0.3);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin: 5px;
+  padding: 5px;
+}
+.adminOrderDetailsItemsMainBox table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.adminOrderDetailsItemsMainBox table tfoot tr td {
+  border: 2px solid rgba(128, 128, 128, 0.3);
+  padding: 10px;
+}
+.adminOrderDetailsOuterBox2 {
+  width: 93.5%;
+  margin: 25px 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.adminOrderDetailsInfoBox {
+  /* height: 400px;  */
+  background-color: white;
+  padding: 25px;
+  text-align: left;
+}
+.adminOrderDetailsInfoBox h4 {
+  margin-bottom: 20px;
+}
+.adminOrderDetailsInfoBox p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.adminOrderDetailsPdfButton {
+  padding: 10px;
+  background-color: #1abc9c;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.adminOrderDetailsPdfButton:hover {
+  background-color: #0e7e68;
+}
+.adminOrderDetailsPdfButton2 {
+  padding: 10px;
+  background-color: #c14456;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.adminOrderDetailsInfoDeliveryBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adminOrderDetailsInfoDeliveryBox h4 {
+  margin-bottom: 5px;
+}
+.adminOrderDetailsInfoDeliveryBox p {
+  margin: 5px 0;
+  margin-top: 0;
+  padding: 0px;
+}
+.adminAllCustomersFilterBox {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+}
+.adminAllCustomersFilterBox input {
+  height: 25px;
+  padding: 0 10px;
+  border-radius: 2px;
+}
+.adminAllCustomersFilterBox input {
+  border: 1px solid grey;
+}
+.adminAllCustomersLeftBox input {
+  width: 100px;
+}
+.adminAllCustomersLeftBox select {
+  width: 70px;
+  margin-inline: 5px;
+}
+.adminAllCustomersLeftBox p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* CUSTOMER BILL */
+
+.customerBillMainOuterBox {
+  width: 100%;
+  min-height: 300px;
+  padding: 20px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.customerBillMainInnerBox {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+.customerBillCustomersDetailsMainBox {
+  padding: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40px;
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* justify-items: center; */
+}
+.customerBillCustomersDetailsMainBox input {
+  margin: 10px;
+  padding: 0 5px;
+  height: 30px;
+}
+.customerBillCustomersDetailsMainBox label,
+.customerBillCustomersDetailsMainBox select {
+  margin: 10px;
+  color: gray;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.customerBillCustomersDetailsItems {
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.customerBillProductsDetailsMainBox {
+  padding: 20px 50px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+.customerBillProductsDetailsMainBox input {
+  margin: 20px 10px;
+  padding: 0 5px;
+  height: 30px;
+}
+.customerBillProductsDetailsMainBox label,
+.customerBillProductsDetailsMainBox select {
+  margin: 10px;
+  color: gray;
+  font-weight: bold;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.adminAllProductsTitle {
+  cursor: pointer;
+}
+.adminAllProductsTitle:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.customerBillAddButton {
+  height: 30px;
+  padding: 0 30px;
+  margin: 0 30px;
+  background-color: #1abc9c;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.customerBillAddButton:hover {
+  background-color: #0e7e68;
+}
+.customerBillAddedProductsMainBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 50px;
+  /* border: 2px solid black; */
+  padding: 20px;
+  box-sizing: border-box;
+}
+.customerBillAddedProductsInnerBox {
+  width: 50%;
+  /* border: 2px solid red; */
+  /* box-sizing: border-box; */
+}
+.customerBillTotalPriceBoxMain {
+  width: 25%;
+  /* width: 200px; */
+  height: 220px;
+  /* height: auto; */
+  padding: 20px;
+  /* border: 2px solid black; */
+  /* box-sizing: border-box; */
+}
+.customerBillTotalPriceInnerBox {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  display: grid;
+  /* padding: 20px; */
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 14px;
+  align-content: space-evenly;
+  justify-items: flex-start;
+  /* box-sizing: border-box; */
+}
+.customerBillTotalPriceInnerBox input {
+  padding: 5px;
+  width: 80%;
+  margin: 0 5px;
+}
+.customerBillTotalPriceInnerBox button {
+  width: 70px;
+  padding: 5px;
+  margin: 0 5px;
+  /* width: 90%; */
+}
+/* .Dashboard Categories */
+.adminDashboardCategoriesOutermostBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminDashboardCategoriesOuterBox {
+  /* width: 80%; */
+  /* height: 300px; */
+  /* width: 90%; */
+  /* padding: 20px 5px; */
+  padding: 0px 5px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  /* background-color: #0e7e68; */
+}
+.adminDashboardCategoriesInnerBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* width: 250px; */
+  width: 270px;
+  height: 120px;
+  /* border: 2px solid yellow; */
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  /* padding: 10px; */
+}
+.adminDashboardCategoriesInnerChartBox {
+  width: 70px;
+  height: 70px;
+}
+.adminDashboardCategoriesInnerDataBox {
+  text-align: right;
+  padding: 5px;
+}
+.adminDashboardCategoriesInnerDataBox h2,
+.adminDashboardCategoriesInnerDataBox p {
+  margin: 5px;
+  font-weight: lighter;
+  margin-right: 0;
+}
+.adminDashboardCategoriesInnerDataBox p {
+  color: var(--fontTertiary);
+}
+.adminDashboardCategoriesReportsBox {
+  /* width: 340px; */
+  width: 365px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  min-height: 400px;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.adminDashboardCategoriesReportsInnerBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.adminDashboardCategoriesReportsGridMainBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+.adminDashboardCategoriesReportsGridItems {
+  /* height: 400px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.adminDashboardCategoriesReportsGridItems p {
+  color: var(--fontTertiary);
+}
+.adminDashboardCategoriesReportsGridItems h3 {
+  margin: 0;
+  font-weight: normal;
+}
+.adminDashboardCategoriesReportsGridItemsPriceBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.adminDashboardCategoriesReportsBarChartMainBox {
+  margin-top: 20px;
+  /* height: 200px; */
+}
+.adminLocationOuterBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.adminLocationInnerBox {
+  /* width: 520px; */
+  width: 560px;
+  min-height: 480px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 500px;
+}
+.adminLocationInnerBox p {
+  text-align: start;
+  margin-left: 20px;
+}
+.leaflet-container {
+  /* width: 480px; */
+  width: 520px;
+  height: 400px;
+  margin: 20px;
+}
+/* Top selling Products  */
+
+.adminTopSellingOuterBox {
+  margin: 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.adminTopSellingInnerBox {
+  overflow-x: auto; /* Add horizontal scroll if needed */
+}
+
+.adminTopSellingInnerBox table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.adminTopSellingInnerBox th,
+.adminTopSellingInnerBox td {
+  padding: 10px;
+}
+
+.adminTopSellingInnerBox th {
+  border-bottom: 3px solid rgba(128, 128, 128, 0.1);
+  font-weight: bold;
+  padding: 15px 10px;
+}
+.adminTopSellingInnerBox td {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+  padding: 15px 10px;
+}
+.adminFirstLoginInnerBox {
+  width: 100%;
+  padding-bottom: 30px;
+  /* border: 2px solid red; */
+}
+.adminFirstLoginInnerBox h4 {
+  color: var(--primary);
+  font-size: 14px;
+}
+.adminFirstLoginInnerBox form {
+  width: 100%;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* border: 2px solid yellow; */
+}
+.adminFirstLoginInnerBox form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+}
+.adminFirstLoginInnerBox form div label {
+  font-size: 12px;
+  white-space: nowrap;
+}
+.adminFirstLoginInnerBox form div input,
+.adminFirstLoginInnerBox form div select {
+  /* width: calc(100vw / 15); */
+  width: 140px;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  /* font-weight: bold; */
+  outline: none;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 1px rgba(2, 168, 181, 0.2);
+}
+.adminFirstLoginInnerBox form div select {
+  width: 140px;
+}
+.adminFirstLoginInnerBox form div input:focus,
+.adminFirstLoginInnerBox form div input:focus,
+.adminFirstLoginInnerBox form div select:focus,
+.adminFirstLoginInnerBox form div select:hover {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+
+.adminFirstLoginDropbox {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  background-color: lightgrey; /* Just for visibility */
+  padding: 0 20px;
+  position: relative;
+  z-index: 5;
+}
+.adminFirstLoginDropbox .openDropdownBox {
+  max-height: 100px;
+  transition: max-height 0.5s ease-in;
+  background-color: #0e7e68;
+}
+
+.underline-animate {
+  position: relative;
+  cursor: pointer;
+  /* border: 1px solid yellow; */
+  /* display: inline-block; */
+}
+.adminFirstLoginInnerBoxCheckIcon {
+  margin: 0px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* border: 1px solid red; */
+}
+
+.underline-animate::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: currentColor; /* Use the text color for the underline */
+  visibility: hidden;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: all 0.3s ease-in-out;
+}
+
+.underline-animate:hover::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+@media (max-width: 1000px) {
+  .adminLocationInnerBox {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+  }
+  .leaflet-container {
+    width: auto;
+  }
+  .adminMainBodyBox {
+    padding-top: 60px;
+  }
+  .adminDashboardCategoriesInnerBox {
+    width: 100%;
+  }
+  .addProductDetailsBox input,
+  .addProductDetailsBox select {
+    width: 100%;
+  }
+  .adminAddCategoryMainbox form h3 {
+    margin: 5px;
+  }
+  .adminAddCategoryMainBox2 {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .adminAddCategoryMainBox2 form {
+    width: 100%;
+  }
+  .adminAddCategoryInnerBox2 {
+    width: 100%;
+  }
+  /* .bulkStockAddProductDetailsBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  } */
+  .addProductDetailsBox label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bulkProductAddingTableMain button {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,438 @@
+.adminAddCategoryMainBox {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 70px;
+}
+.adminAddCategoryMainBox2 {
+  padding: "20px 10px";
+  margin: "10px";
+}
+.adminAddCategoryInnerBox {
+  width: 100%;
+  max-width: 80vw;
+  overflow: auto;
+  padding: 40px;
+  min-height: 500px;
+  background-color: white;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start; */
+  border-radius: 5px;
+}
+.adminAddCategoryInnerBoxUnlabel {
+  padding: 40px;
+  box-sizing: border-box;
+  /* width: 90%; */
+  /* margin-inline: 70px; */
+}
+.adminAddCategoryInnerBoxTitlesBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.adminAddCategoryInnerBoxTitle {
+  width: 50%;
+  height: 50px;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  background-color: var(--primary);
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all ease-in-out 0.4s;
+}
+
+/* .adminAddCategoryInnerBoxTitle:first-child {
+  margin-right: 20px;
+}
+.adminAddCategoryInnerBoxTitle:nth-child(3) {
+  margin-left: 20px;
+} */
+.adminAddCategoryInnerBoxTitle:first-child {
+  margin-right: 10px;
+}
+.adminAddCategoryInnerBoxTitle:last-child {
+  margin-left: 10px;
+}
+.adminAddCategoryInnerBoxTitleLogo {
+  margin-inline: 10px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: var(--secondary);
+}
+.activeCategoryTitle {
+  border: 1px solid var(--tertiary);
+  color: var(--primary);
+  background-color: var(--tertiary);
+}
+.activeCategoryLogo {
+  background-color: var(--tertiary);
+}
+.adminCategoryListMainBox {
+  margin-top: 40px;
+  font-size: 14px;
+  text-align: left;
+  overflow-x: auto;
+}
+.adminCategoryListMainBox table thead th {
+  padding: 15px;
+  background-color: #f1f5f9;
+  white-space: nowrap;
+  border-bottom: 3px solid rgba(128, 128, 128, 0.1);
+}
+.adminCategoryListMainBox table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.adminCategoryListMainBox table tbody tr td {
+  /* background-color: aqua; */
+  min-width: 50px;
+  box-sizing: border-box;
+  padding: 15px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.adminCategoryListMainBox table tbody tr td input,
+.adminCategoryListMainBox table tbody tr td select {
+  width: 150px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.adminCategoryListMainBox table tbody tr td input:focus,
+.adminCategoryListMainBox table tbody tr td select:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.adminCategoryListMainBox table tbody tr td input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  /* outline: none; */
+  cursor: pointer;
+  border: 1px solid red;
+}
+.adminCategoryListMainBox table tbody tr td input:checked {
+  accent-color: rgba(2, 168, 181, 0.2);
+}
+.adminCategoryAddCategoryMainBox {
+  margin-top: 50px;
+  text-align: start;
+}
+.adminCategoryAddCategoryMainBox > p {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  /* background-color: #f1f5f9; */
+  color: var(--primary);
+  padding: 15px 10px;
+}
+.adminCategoryAddCategoryInnerBox {
+  width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  min-height: 200px;
+  /* background-color: bisque; */
+  font-size: 14px;
+  display: grid;
+  gap: 20px;
+  text-align: left;
+  grid-template-columns: 1fr 5fr;
+  align-content: center;
+  /* justify-items: center; */
+}
+.adminCategoryAddCategoryMainBox label {
+  font-weight: bold;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* color: var(--fontTertiary); */
+}
+.adminCategoryAddCategoryMainBox input,
+.adminCategoryAddCategoryMainBox textarea,
+.adminCategoryAddCategoryMainBox select {
+  height: 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 2px 5px;
+  border: 1px solid #ced4da;
+  box-shadow: 0px 0px 1px rgba(2, 168, 181, 0.2);
+  outline: none;
+}
+.adminCategoryAddCategoryMainBox select {
+  height: 35px;
+  color: var(--fontTertiary);
+}
+.adminCategoryAddCategoryMainBox input:focus,
+.adminCategoryAddCategoryMainBox textarea:focus,
+.adminCategoryAddCategoryMainBox select:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.adminCategoryAddCategoryMainBox button {
+  margin: 40px 0px;
+  padding: 10px 50px;
+  background-color: var(--primary);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.adminCategoryAddCategoryMainBox button:hover,
+.adminCategoryAddCategoryMainBox button:focus {
+  background-color: var(--btnHoverPrimary);
+}
+.adminAddCategoryEditButton {
+  background-color: var(--tertiary);
+  color: var(--primary);
+  /* border: none; */
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.adminAddCategoryEditButton:hover,
+.adminAddCategoryEditButton:focus {
+  /* background-color: var(--btnHoverPrimary); */
+  /* color: black; */
+  /* color: white; */
+  box-shadow: 0px 0px 5px var(--primary);
+}
+.adminAddCategorySaveButton {
+  background-color: var(--primary);
+  color: white;
+  /* border: none; */
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.adminAddCategorySaveButton:hover,
+.adminAddCategorySaveButton:focus {
+  background-color: var(--btnHoverPrimary);
+}
+.adminSkuAddSkuInnerBox {
+  width: 70vw;
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* background-color: #ced4da; */
+  grid-gap: 20px;
+  box-sizing: border-box;
+}
+.adminSkuAddSkuInnerBox input,
+.adminSkuAddSkuInnerBox button,
+.adminSkuAddSkuInnerBox select {
+  width: 200px;
+  /* width: 100%; */
+}
+.adminSkuAddSkuInnerBox label {
+  margin-bottom: 10px;
+  /* margin-top: 20px; */
+}
+.adminSkuAddSkuInnerBox button {
+  margin-top: 25px;
+}
+/* .adminSkuAddSkuInnerItemsBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+.adminSkuAddSkuInnerUpperItemsBox {
+  grid-column: span 3;
+  /* grid-column: span 1; */
+}
+.adminSkuAddSkuInnerUpperItemsBox input {
+  width: 30%;
+  /* height: 40px; */
+  color: var(--primary);
+  font-size: 18px;
+}
+.adminSkuAddSkuInnerUpperItemsBox textarea {
+  width: 96.5%;
+  padding: 10px;
+  color: grey;
+  height: 50px;
+}
+.adminSkuAddSkuInnerTitles {
+  font-size: 14px;
+  margin: 10px 0px;
+  grid-column: span 3;
+  /* grid-column: span 1; */
+  color: var(--primary);
+}
+.adminSkuAddSkuInnerItemsStoneInnerBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  /* border-bottom: 1px solid goldenrod; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.adminSkuAddSkuInnerItemsStoneInnerBox button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--redBtnPrimary);
+}
+.adminSkuAddSkuInnerItemsStoneInnerBox button:focus,
+.adminSkuAddSkuInnerItemsStoneInnerBox button:hover {
+  background-color: var(--redBtnHover);
+}
+.adminSkuAddSkuInnerItemsStoneInnerBox input:first-child {
+  width: 150px;
+}
+.adminSkuAddSkuInnerItemsStoneInnerBox input {
+  width: 100px;
+}
+.adminSkuAddSkuInnerItemsStoneInnerBox label {
+  margin: 5px 0px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.603);
+}
+.adminSkuAddSkuInnerAddStoneButton {
+  background-color: var(--primary);
+  color: white;
+  /* border: none; */
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.adminSkuAddSkuInnerAddStoneButton:hover,
+.adminSkuAddSkuInnerAddStoneButton:focus {
+  /* background-color: var(--btnHoverPrimary); */
+  /* color: black; */
+  /* color: white; */
+  background-color: var(--btnHoverPrimary);
+}
+.adminAddCategorySaveButton {
+  background-color: var(--primary);
+  color: white;
+  /* border: none; */
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.adminAddCategorySaveButton:hover,
+.adminAddCategorySaveButton:focus {
+  background-color: var(--btnHoverPrimary);
+}
+.adminSkuAddSkuInnerItemsImagesBox {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.adminSkuAddSkuInnerItemsImagesBox img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.adminSkuAddSkuInnerItemsImagesInnerBox {
+  position: relative;
+}
+.adminSkuAddSkuInnerItemsImagesBoxCancel {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: 22px;
+  color: var(--redBtnPrimary);
+  font-weight: bold;
+  cursor: pointer;
+}
+.adminSkuAddSkuInnerItemsImagesBoxCancel:hover,
+.adminSkuAddSkuInnerItemsImagesBoxCancel:focus {
+  color: var(--redBtnHover);
+}
+/* .adminSkuAddSkuInnerItemsStoneBox {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+} */
+.adminSkuAddSkuInnerItemsBox {
+  margin-bottom: 10px;
+}
+.adminSkuAddSkuInnerItemsBox table {
+  width: 100%;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+.adminSkuAddSkuInnerItemsBox table td {
+  border: 1px solid grey;
+  padding: 10px 5px;
+}
+label sup {
+  color: red;
+  padding-left: 2px;
+}
+@media (max-width: 1000px) {
+  .adminAddCategoryMainBox {
+    padding: 0;
+    width: 100%;
+  }
+  .adminAddCategoryInnerBox {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .adminCategoryAddCategoryInnerBox {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(1fr);
+  }
+  .adminAddCategoryInnerBoxTitle {
+    font-size: 14px;
+    white-space: nowrap;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 5px;
+  }
+  .adminAddCategoryInnerBoxTitleLogo {
+    width: 10px;
+    margin: 0;
+    margin-right: 5px;
+    height: 10px;
+    background-color: transparent;
+  }
+  .adminSkuAddSkuInnerBox {
+    grid-template-columns: repeat(auto-fit, minmax(500, 1fr));
+  }
+  .adminSkuAddSkuInnerUpperItemsBox {
+    grid-column: auto;
+  }
+  .adminSkuAddSkuInnerTitles {
+    grid-column: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .adminSkuAddSkuInnerTitles {
+    grid-column: span 2;
+  }
+}

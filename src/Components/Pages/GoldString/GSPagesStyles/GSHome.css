@@ -1,0 +1,335 @@
+.GSHomeMainOuterBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+.gsHomeTopBannerBox {
+  position: relative;
+}
+.gsHomeTopBannerBox img {
+  width: 100%;
+  box-sizing: border-box;
+}
+.gsHomeTopBannerTextBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.gsHomeUpperAdOuterBox {
+  width: 100%;
+  padding-top: 50px;
+  box-sizing: border-box;
+  background-color: var(--bgcolorDark);
+}
+.gsHomeUpperAdMainBox {
+  box-sizing: border-box;
+  width: 100%;
+  height: 300px;
+
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gsHomeUpperAdItemsBox {
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gsHomeUpperAdItemsBox img {
+  width: 225px;
+  z-index: 2;
+}
+.gsHomeUpperAdItemsImage {
+  position: relative;
+  animation-name: slideInFromRight; /* Use the defined keyframes */
+  animation-duration: 1s; /* Animation lasts for 2 seconds */
+  animation-fill-mode: both;
+  cursor: pointer;
+}
+.gsHomeUpperAdItemsTextBox {
+  width: 300px;
+  height: 225px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  /* position: absolute; */
+  /* right: 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  transition: all ease-in-out 0.3s;
+  position: relative; /* Needed for transform property to work */
+  animation-name: slideInFromLeft; /* Use the defined keyframes */
+  animation-duration: 1s; /* Animation lasts for 2 seconds */
+  animation-fill-mode: both; /* Ensure the final state is retained after the animation ends */
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.gsHomeUpperAdItemsTextBox p {
+  margin: 10px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: var(--fontTertiary);
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-10%); /* Start from beyond the right edge */
+    opacity: 1; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0); /* End at its final position */
+    opacity: 1; /* Fully opaque */
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(10%); /* Start from beyond the right edge */
+    opacity: 1; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0); /* End at its final position */
+    opacity: 1; /* Fully opaque */
+  }
+}
+.gsHomeUpperIconsMainBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: var(--bgcolorDark);
+}
+.gsHomeUpperIconsIcon {
+  color: var(--redBtnPrimary);
+  font-size: 40px;
+  margin-bottom: 10px;
+  /* stroke-width: 1px; */
+  /* font-weight: 200; */
+}
+.gsHomePerformanceOuterBox {
+  width: 100%;
+}
+.gsHomePerformanceMainBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 20px;
+}
+.gsHomePerformanceItemsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gsHomePerformanceItemsBox p {
+  font-size: large;
+}
+.gsHomeMiddleAdOuterBox {
+  width: 100%;
+}
+.gsMiddleAdsMainBox {
+  margin-top: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.gsMiddleAdsItemsBox {
+  width: 270px;
+  height: 420px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.gsMiddleAdsItemsBox img {
+  width: 220px;
+}
+
+.gsMiddleAdsItemsDetailsBox {
+  padding-inline: 40px;
+}
+.gsMiddleAdsItemsDetailsBox h3 {
+  font-size: 19px;
+  color: var(--fontSecondary);
+  margin-inline: 0px;
+  padding-inline: 0px;
+  text-align: left;
+}
+.gsMiddleAdsItemsDetailsBox p {
+  text-align: left;
+  font-size: 14px;
+  padding: 0px;
+  margin: 10px 0px;
+  color: var(--fontTertiary);
+}
+.gsHomeMiddleVideosOuterBox {
+  width: 100%;
+}
+.gsHomeMiddleVideosMainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.productDetailsVideoThumbnail {
+  position: relative;
+  /* width: 120px; */
+  margin: 10px 20px;
+  margin-bottom: 50px;
+  /* border: 2px solid red; */
+}
+.productDetailsVideoThumbnail img {
+  width: 200px;
+}
+.productDetailsVideoThumbnailPlayIcon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.614);
+  border-radius: 50%;
+}
+.productDetailsVideoThumbnail:hover .productDetailsVideoThumbnailPlayIcon {
+  /* opacity: 0.5; */
+  position: absolute;
+  top: 40%;
+  left: 43%;
+  transform: translate(-40%, -43%);
+  color: white;
+  transform: scale(1.6);
+  transition: all ease-in-out 0.5s;
+  z-index: 2;
+
+  background-color: black;
+}
+.productDetailsVideoThumbnail:hover img {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  /* opacity: 0.5; */
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 97.5%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+}
+.overlayLarge {
+  height: 99%;
+}
+.productDetailsVideoThumbnail:hover .overlay {
+  background-color: rgba(0, 0, 0, 0); /* Black with 50% opacity */
+  /* display: none; */
+  transition: all ease-in-out 0.5s;
+}
+.new {
+  /* position: absolute; */
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.532);
+}
+.productDetailsVideoThumbnailLarge img {
+  width: 560px;
+}
+.productDetailsVideoThumbnailLarge:hover
+  .productDetailsVideoThumbnailPlayIconLarge {
+  /* opacity: 0.5; */
+  position: absolute;
+  top: 47.5%;
+  left: 47.5%;
+  transform: translate(-47.5%, -47.5%);
+  color: white;
+  transform: scale(2);
+  transition: all ease-in-out 0.5s;
+  z-index: 2;
+  border-radius: 50%;
+}
+.productDetailsVideoThumbnail:hover img {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  /* opacity: 0.5; */
+}
+.gsHomeQuickConnectOuterBox {
+  /* margin-top: 20px; */
+  width: 100%;
+}
+
+.gsHomeQuickConnectMainBox {
+  display: flex;
+  width: 100%;
+  padding: 50px;
+  padding-top: 0px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.gsHomeQuickConnectLeftBox {
+  width: 30%;
+  text-align: left;
+}
+.gsHomeQuickConnectLeftBox h4 {
+  color: var(--fontSecondary);
+  font-size: 16px;
+}
+.gsHomeQuickConnectLeftBox p {
+  font-size: 16px;
+  color: var(--fontTertiary);
+}
+.gsHomeQuickConnectRightBox {
+  width: 70%;
+  text-align: left;
+}
+.gsHomeQuickConnectRightBox form {
+  display: flex;
+  flex-direction: column;
+}
+.gsHomeQuickConnectRightBox form input,
+.gsHomeQuickConnectRightBox button {
+  height: 40px;
+  background-color: var(--bgcolorDark);
+  padding-inline: 30px;
+  margin: 6px 0px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  color: gray;
+  font-size: 16px;
+}
+.gsHomeQuickConnectRightBox button {
+  cursor: pointer;
+  background-color: var(--redBtnGS);
+  color: black;
+}
+.gsHomeQuickConnectRightBox button:hover {
+  background-color: black;
+  color: white;
+  transition: all ease-in-out 0.5s;
+}

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Inter", sans-serif;
+  background-color: #f1f5f9;
+}
+.body-no-scroll {
+  overflow: hidden;
+}
+:root {
+  --primary: #02a8b5;
+  --secondary: #ffffff1f;
+  --tertiary: #02a8b533;
+  --fontPrimary: #323a46;
+  --fontSecondary: #343a40;
+  --fontTertiary: #93a4ad;
+  --bgcolor: #f1f5f9;
+  --bgcolorDark: #e5e9ed;
+  --bgHoverPrimary: #f4f9fb;
+  --btnHoverPrimary: #018e98;
+  --redBtnPrimary: #cd485c;
+  --redBtnHover: #f1556c;
+  --redBtnGS: #bf1515;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+  background-color: #02a8b533;
+}
+.loading h1 {
+  color: white;
+}
+.MuiInputLabel-asterisk {
+  color: red !important; /* Use !important to ensure override */
+}

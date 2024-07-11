@@ -1,0 +1,57 @@
+.GSClientCustomiseProfileBox {
+  width: 100%;
+  width: 130px;
+  height: 130px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden; /* Ensure the overlay doesn't extend outside the box */
+  transition: all 0.3s ease; /* Smooth transition for any changes */
+}
+
+.GSClientCustomiseProfileBox label {
+  /* width: 100%; */
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  z-index: 1; /* Make sure label is clickable */
+  position: relative; /* Needed for z-index to work */
+  cursor: pointer;
+}
+
+/* Overlay for profile pic option */
+.profilePicOverlay {
+  position: absolute;
+  width: 100%;
+  bottom: -50%; /* Start hidden below the box */
+  left: 0;
+  background-color: aliceblue; /* Your choice of color */
+  transition: bottom 0.3s ease; /* Animate the bottom property */
+  z-index: 2; /* Ensure it overlays the content */
+  text-align: center; /* Center the text within the overlay */
+  font-size: 14px;
+}
+
+.GSClientCustomiseProfileBox:hover .profilePicOverlay {
+  bottom: 0; /* Slide up to cover the content */
+}
+.GSClientCustomiseProfileBoxImagesLabel img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.clientOnboardingLoginOption {
+  cursor: pointer;
+}
+.clientOnboardingLoginOption:hover {
+  text-decoration: underline;
+  color: blue;
+}

@@ -1,0 +1,1153 @@
+.adminInvoiceSelectLabelBox {
+  width: 100%;
+  margin-bottom: 40px;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+.adminInvoiceSelectItem {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  /* border: 2px solid yellow; */
+}
+.adminInvoiceSelectItem label {
+  margin: 0px 10px;
+}
+.adminInvoiceSelectItem input,
+.adminInvoiceSelectItem select {
+  width: 130px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.adminInvoiceSelectItem h4 {
+  margin-inline: 10px;
+  /* width: 130px; */
+  /* height: 30px; */
+}
+
+.adminInvoiceSelectItem input:focus,
+.adminInvoiceSelectItem select:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.adminInvoiceSelectItemBalanceMetal {
+  color: var(--btnHoverPrimary);
+}
+.adminInvoiceSelectItemBalanceMetal:hover {
+  cursor: pointer;
+  color: var(--redBtnHover);
+  text-decoration: underline;
+}
+.adminInvoiceAddedCustomerBox {
+  /* border: 2px solid red;  */
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  /* font-weight: bold; */
+  color: var(--primary);
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.adminInvoiceAddedCustomerBox p {
+  margin: 5px;
+}
+.adminInvoiceSelectCategoryBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  padding: 0px 10px;
+  margin: 20px 0px;
+}
+.adminInvoiceSelectCategoryItem input {
+  width: 200px;
+}
+.adminInvoiceAddTitles {
+  text-align: left;
+  font-size: 13px;
+  margin: 10px 0px;
+  background-color: var(--tertiary);
+  padding: 10px;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+}
+.adminInvoiceAddedCustomerEditBox {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+}
+.adminInvoiceAddedCustomerEditItems {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  color: var(--primary);
+  /* color: var(--fontTertiary); */
+  /* font-weight: bold; */
+  /* flex-direction: column; */
+  /* flex-direction: column; */
+}
+.adminInvoiceAddedCustomerEditMainBox p {
+  text-align: left;
+  /* color: var(--primary); */
+  /* color: var(--fontTertiary); */
+  color: black;
+  /* border: 1px solid var(--primary); */
+  /* border: 1px solid var(--fontTertiary); */
+  /* background-color: var(--tertiary); */
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 10px 5px;
+  border-radius: 3px;
+  /* padding: 10px; */
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+.adminInvoiceAddedCustomerEditMainBox {
+  padding: 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* box-shadow: var(--primary) 0px 1px 4px; */
+  font-size: 14px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.adminInvoiceAddedCustomerEditMainBox label {
+  margin: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.adminInvoiceAddedCustomerEditMainBox input,
+.adminInvoiceAddedCustomerEditMainBox select {
+  width: 150px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.adminInvoiceAddedCustomerEditMainBox input:focus,
+.adminInvoiceAddedCustomerEditMainBox select:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.adminInvoiceAddedCustomerEditButtonBox button {
+  /* background-color: var(--tertiary); */
+  background-color: var(--primary);
+  /* color: var(--primary); */
+  font-weight: bold;
+  color: white;
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  width: 200px;
+  height: 30px;
+  margin: 50px;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.adminInvoiceAddedCustomerEditButtonBox button:hover,
+.adminInvoiceAddedCustomerEditButtonBox button:focus {
+  /* background-color: var(--btnHoverPrimary); */
+  /* color: black; */
+  /* color: white; */
+  box-shadow: 0px 0px 5px var(--primary);
+  background-color: var(--primary);
+  color: white;
+}
+.adminInvoiceAddCustomerOption {
+  width: 30px;
+  font-weight: lighter;
+  cursor: pointer;
+  height: 30px;
+  margin: 0px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  /* border-radius: 5px; */
+  color: var(--primary);
+  background-color: var(--tertiary);
+  /* border: 1px solid var(--primary); */
+}
+.adminInvoiceAddCustomerOption:hover,
+.adminInvoiceAddCustomerOption:focus {
+  box-shadow: 0px 0px 5px var(--primary);
+}
+.adminInvoiceAddedCustomerEditIconBox {
+  display: flex;
+  height: 30px;
+  padding-right: 10px;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.adminInvoiceAddedCustomerEditIconBox button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-inline: 5px;
+  color: var(--primary);
+}
+.adminInvoiceAddedCustomerEditIconBox button:last-child {
+  color: var(--redBtnPrimary);
+}
+.adminInvoiceAddedCustomerEditIconBox button:hover,
+.adminInvoiceAddedCustomerEditIconBox button:focus {
+  color: white;
+  box-shadow: 0px 0px 5px var(--primary);
+  background-color: var(--primary);
+}
+#adminInvoiceAddedCustomerRemoveIcon:hover,
+#adminInvoiceAddedCustomerRemoveIcon:focus {
+  /* color: var(--redBtnHover); */
+  color: white;
+  box-shadow: 0px 0px 5px var(--redBtnHover);
+  background-color: var(--redBtnHover);
+}
+.adminInvoiceAddProductsOptionsMainBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 200px; */
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+}
+.adminInvoiceAddProductsOptionsInnerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: auto;
+  /* border: 2px solid orange; */
+  /* height: 100px; */
+  width: 100%;
+  box-sizing: content-box;
+}
+.adminInvoiceAddProductsOptionsInnerLeftBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid yellow;
+  height: 100px;
+  width: 40%;
+  box-sizing: border-box;
+}
+.adminInvoiceAddProductsOptionsInnerRightBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid blue;
+  height: 100px;
+  width: 50%;
+  box-sizing: border-box;
+}
+.adminInvoiceAddProductsOptionsInnerBox table {
+  margin: 10px 0px;
+  width: 100%;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+}
+.adminInvoiceAddProductsOptionsInnerBox table th:first-child {
+  width: 400px;
+  /* background-color: aquamarine; */
+  text-align: left;
+}
+
+.adminInvoiceAddProductsOptionsInnerBox table th {
+  font-size: 11px;
+  padding: 7px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+.adminInvoiceAddProductsOptionsInnerBox table th:first-child {
+  border-left: none;
+}
+.adminInvoiceAddProductsOptionsInnerBox table th:last-child {
+  border-right: none;
+}
+.adminInvoiceAddProductsOptionsInnerBox table tbody {
+  font-size: 11px;
+  color: var(--fontPrimary);
+}
+.adminInvoiceAddProductsOptionsInnerBox table tbody td {
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+.adminInvoiceAddProductsOptionsInnerBox table tbody td:last-child {
+  border-right: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+.adminInvoiceAddProductsOptionsInnerBox table tbody:last-child {
+  border-right: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+.adminAddInvoiceMainAddLabelOption {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+}
+.adminAddInvoiceMainAddLabelOptionImageBox {
+  /* border: 1px solid red; */
+  padding: 5px;
+  color: var(--fontTertiary);
+}
+.adminAddInvoiceMainAddLabelOptionLabelBox input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  font-size: 12px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: border ease-in-out 1s;
+}
+.adminAddInvoiceMainAddLabelOptionLabelBox input:hover,
+.adminAddInvoiceMainAddLabelOptionLabelBox input:focus {
+  border: 1px solid var(--primary);
+}
+.adminAddInvoiceMainAddLabelOptionEditIconBox {
+  display: flex;
+  color: var(--fontTertiary);
+  flex-direction: column;
+  justify-content: center;
+}
+.adminAddInvoiceMainAddLabelOptionEditIconBox button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+.adminAddInvoiceMainAddLabelOptionEditIcon {
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin: 1px;
+  color: var(--primary);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.adminAddInvoiceMainAddLabelOptionEditIcon:hover,
+.adminAddInvoiceMainAddLabelOptionEditIcon:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+  color: white;
+  background-color: var(--primary);
+}
+.adminAddInvoiceMainAddLabelOptionDeleteIcon {
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin: 1px;
+  color: var(--redBtnPrimary);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  border: none;
+}
+.adminAddInvoiceMainAddLabelOptionDeleteIcon:hover,
+.adminAddInvoiceMainAddLabelOptionDeleteIcon:focus {
+  box-shadow: 0px 0px 3px var(--redBtnHover);
+  color: white;
+  background-color: var(--redBtnHover);
+}
+.adminInvoiceOpenEditMainBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent gray overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100000; /* Ensure it's above other elements */
+}
+
+.adminInvoiceOpenEditInnerBox {
+  background: #fff;
+  width: 80%;
+  /* max-height: 80vh; Maximum height for the modal content */
+  overflow-y: auto; /* Enable vertical scrolling when content exceeds max-height */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adminInvoiceOpenEditOuterGridBox {
+  width: 80%;
+  margin-top: 20px;
+  display: grid;
+  justify-items: flex-start;
+  align-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  column-gap: 100px;
+  padding: 20px;
+  font-size: 13px;
+  color: var(--fontTertiary);
+}
+.adminInvoiceOpenEditInnerGridItem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+.adminInvoiceOpenEditInnerGridItem label {
+  margin-right: 20px;
+}
+.adminInvoiceOpenEditInnerTitleBox {
+  width: 100%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminInvoiceOpenEditInnerTitleBox p {
+  margin: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.adminInvoiceOpenEditInnerGridItem input,
+.adminInvoiceOpenEditInnerGridItem select,
+.adminInvoiceOpenEditInnerGridItem option {
+  width: 150px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.adminInvoiceOpenEditInnerGridItem input:hover,
+.adminInvoiceOpenEditInnerGridItem input:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.adminInvoiceEditProductSaveButton {
+  width: 120px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  box-sizing: border-box;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.adminInvoiceEditProductSaveButton:hover,
+.adminInvoiceEditProductSaveButton:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+  background-color: var(--btnHoverPrimary);
+}
+.adminInviceAddedProductsTotalOuterBox {
+  display: grid;
+  width: 100%;
+  /* height: 300px; */
+  column-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.adminInviceAddedProductsTotalItemBox {
+  width: 100%;
+  background-color: #f9f9fb;
+  display: grid;
+  height: fit-content;
+  grid-template-columns: repeat(2, 1fr);
+  /* justify-items: end; */
+  align-content: space-evenly;
+  border-radius: 10px;
+  padding: 20px;
+  /* padding-top: 40px; */
+  gap: 5px;
+  font-size: 13px;
+  /* background-color: var(--tertiary); */
+  color: var(--primary);
+  font-weight: bold;
+  box-sizing: border-box;
+  position: relative;
+  /* border: 2px solid red; */
+}
+.adminInviceAddedProductsTotalItemBox label {
+  display: flex;
+  justify-content: center;
+}
+.adminInviceAddedProductsTotalItemBox label {
+  position: relative;
+}
+
+.adminInviceAddedProductsTotalItemBox input,
+.adminInviceAddedProductsTotalItemBox select {
+  width: 150px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.adminInviceAddedProductsTotalItemBox input:hover,
+.adminInviceAddedProductsTotalItemBox input:focus,
+.adminInviceAddedProductsTotalItemBox select:hover,
+.adminInviceAddedProductsTotalItemBox select:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+  cursor: pointer;
+}
+
+.adminInviceAddedProductsTotalItemBoxPaymentType {
+  /* position: absolute; */
+  display: flex;
+  /* width: 100%; */
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  justify-content: space-evenly;
+  background-color: #ced4da;
+  padding: 5px;
+  font-size: 14px;
+  box-sizing: content-box;
+  align-items: center;
+}
+.adminInviceAddedProductsTotalItemBoxPaymentType div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-inline: 5px;
+}
+.adminInviceAddedProductsTotalItemBoxPaymentType div:hover,
+.adminInviceAddedProductsTotalItemBoxPaymentType div:focus {
+  color: var(--btnHoverPrimary);
+  cursor: pointer;
+}
+.adminInvoiceMainSaveButtonBox {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminInvoiceMainSaveButtonBox button {
+  width: 200px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  box-sizing: border-box;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminInvoiceMainSaveButtonBox button:hover,
+.adminInvoiceMainSaveButtonBox button:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+  background-color: var(--btnHoverPrimary);
+  font-weight: bold;
+}
+
+.adminInviceAddedProductsAmountInputBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminInviceAddedProductsAmountInputBox button {
+  background-color: var(--tertiary);
+  outline: none;
+  border: none;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.adminInviceAddedProductsAmountInputBox button:hover,
+.adminInviceAddedProductsAmountInputBox button:focus {
+  background-color: var(--btnHoverPrimary);
+  color: white;
+}
+.adminInviceAddedProductsTotalAmountBox table {
+  width: 100%;
+  background-color: #f9f9fb;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  margin: 20px 0px;
+  /* border: 1px solid var(--primary); */
+}
+.adminInviceAddedProductsTotalAmountBox table th {
+  color: var(--primary);
+  padding: 5px;
+  font-size: 14px;
+  background-color: var(--tertiary);
+  border: 1px solid var(--primary);
+}
+.adminInviceAddedProductsTotalAmountBox table td {
+  font-size: 14px;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid var(--primary);
+}
+.adminInviceAddedProductsTotalAmountDeleteOption {
+  color: var(--redBtnPrimary);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.adminInviceAddedProductsTotalAmountDeleteOption:hover,
+.adminInviceAddedProductsTotalAmountDeleteOption:focus {
+  color: var(--redBtnHover);
+  text-decoration: underline;
+}
+
+.adminInvoiceAddProductsOptionsMainPurchaseBox {
+  display: grid;
+  padding: 20px 0px;
+  /* background-color: var(--tertiary); */
+  margin-bottom: 30px;
+  column-gap: 60px;
+  row-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-content: space-between;
+  justify-items: start;
+}
+.adminInvoiceAddProductsOptionsTypeBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px 0px;
+  margin-bottom: 20px;
+  /* width: 350px; */
+  width: 100%;
+  /* flex-wrap: wrap; */
+  overflow-x: auto;
+}
+.adminInvoiceAddProductsOptionsMainPurchaseItems {
+  display: flex;
+  /* gap: 10px; */
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminInvoiceAddProductsOptionsMainPurchaseItems label {
+  font-size: 14px;
+  color: var(--primary);
+  font-weight: bold;
+}
+.adminInvoiceAddProductsOptionsMainPurchaseItems input,
+.adminInvoiceAddProductsOptionsMainPurchaseItems select {
+  width: 150px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.adminInvoiceAddProductsOptionsMainPurchaseItems input:hover,
+.adminInvoiceAddProductsOptionsMainPurchaseItems input:focus,
+.adminInvoiceAddProductsOptionsMainPurchaseItems select:hover,
+.adminInvoiceAddProductsOptionsMainPurchaseItems select:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+  cursor: pointer;
+}
+.adminInvoiceAddProductsOptionsMainPurchaseItems button {
+  width: 120px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  box-sizing: border-box;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  margin: 10px 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.adminInvoiceAddProductsOptionsMainPurchaseItems button:hover,
+.adminInvoiceAddProductsOptionsMainPurchaseItems button:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+  background-color: var(--btnHoverPrimary);
+  /* font-weight: bold; */
+}
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseBox {
+  width: 100%;
+  /* border: 2px solid red; */
+  /* display: grid; */
+}
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems table thead tr {
+  display: grid;
+  /* grid-template-columns: repeat(8, 1fr); */
+  font-size: 12px;
+  justify-items: flex-start;
+  align-content: center;
+  white-space: nowrap;
+  row-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  /* border: 2px solid yellow; */
+}
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems table thead tr {
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  padding: 20px 0px;
+  padding-bottom: 10px;
+}
+/* .adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems table thead tr th {
+  font-weight: lighter;
+  font-size: 12px;
+} */
+
+/* .adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems select {
+  width: 95px;
+  margin: 5px;
+  padding: 5px;
+  border-color: var(--primary);
+} */
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems input,
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems select {
+  width: 95px;
+  margin: 5px;
+  margin-bottom: 15px;
+  margin-inline: 0px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems input:focus,
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems select:focus,
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems input:hover,
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems select:hover {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems input {
+  width: 95px;
+  /* margin: 5px; */
+  position: relative;
+  padding: 5px;
+}
+.adminPurchaseInvoiceAddProductsOptionsMainPurchaseItems div {
+  position: relative;
+}
+.adminPurchaseEntryDollarSignBox {
+  position: relative;
+  margin: 5px 0px;
+  width: 95px;
+  /* margin: 5px; */
+  height: 30px;
+  margin-inline-end: 0px;
+  /* padding: 0px 5px; */
+  /* outline: none; */
+  /* border-color: 1px solid grey; */
+  /* border: 1px solid #ced4da; */
+  border-radius: 5px;
+  box-sizing: border-box;
+  /* border: 1px solid var(--primary); */
+}
+.adminPurchaseEntryDollarSignBox input {
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+  border: none;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  margin: 0px;
+  /* padding-left: 20px; */
+  padding-left: 23px;
+  padding-right: 5px;
+}
+.adminPurchaseEntryDollarSignBox input:active,
+.adminPurchaseEntryDollarSignBox input:focus {
+  border: none;
+  outline: none;
+}
+.adminPurchaseEntryDollarSign {
+  position: absolute;
+  left: 5px;
+  bottom: 25%;
+  z-index: 3;
+  /* top: 0; */
+}
+.adminInviceAddedProductsMetaltoCashMainBox {
+  background-color: #f9f9fb;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--primary);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.adminInviceAddedProductsMetaltoCashMainBox div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+}
+.adminInviceAddedProductsMetaltoCashMainBox div input,
+.adminInviceAddedProductsMetaltoCashMainBox div select {
+  width: 100px;
+  height: 25px;
+  margin: 5px 10px;
+  margin-right: 0px;
+  box-sizing: border-box;
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.adminInviceAddedProductsMetaltoCashMainBox div input:focus,
+.adminInviceAddedProductsMetaltoCashMainBox div input:hover,
+.adminInviceAddedProductsMetaltoCashMainBox div select:focus,
+.adminInviceAddedProductsMetaltoCashMainBox div select:hover {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.adminPaymentsTransactionsListMainBox {
+  width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+}
+.adminPaymentsTransactionsListItemsBox table {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: end;
+  /* height: 50px; */
+  /* border: 2px solid red; */
+  border-collapse: collapse;
+}
+.adminPaymentsTransactionsListItemsBox table thead tr td {
+  margin: 5px;
+  padding: 15px 10px;
+  font-size: 12px;
+  border: 1px solid #ced4da;
+  border-top: none;
+  font-weight: bold;
+}
+.adminPaymentsTransactionsListItemsBox table thead tr td:first-child {
+  border-left: none;
+}
+.adminPaymentsTransactionsListItemsBox table thead tr td:last-child {
+  border-right: none;
+}
+.adminPaymentsTransactionsListItemsBox table tbody tr td {
+  margin: 5px;
+  padding: 15px 10px;
+  font-size: 12px;
+  border: 1px solid #ced4da;
+  border-top: none;
+  /* font-weight: bold; */
+}
+.adminPaymentsTransactionsListItemsBox table tbody tr td:first-child {
+  border-left: none;
+}
+.adminPaymentsTransactionsListItemsBox table tbody tr td:last-child {
+  border-right: none;
+}
+.adminInvoiceAddProductsOptionsMainSkuBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  margin-top: 15px;
+}
+.adminInvoiceAddProductsOptionsMainSkuBox label {
+  font-size: 12px;
+  margin-right: 15px;
+  font-weight: bold;
+  color: var(--primary);
+}
+.adminLedgerMainSupplierRow:hover {
+  cursor: pointer;
+  background-color: #f9f9fb;
+}
+.invoiceGstCheckBox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.invoiceGstCheckBox1 input {
+  width: 17px;
+  height: 17px;
+  margin-inline: 10px;
+}
+.invoiceDiscountInputBox {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-between; */
+  align-items: center;
+  box-sizing: border-box;
+}
+.invoiceDiscountInputBox input {
+  width: 70px;
+  margin-right: 10px;
+}
+.invoiceFormDateTimeBox {
+  position: relative;
+}
+.invoiceFormDateTimeSelectDateBox {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 10px;
+  top: 0px;
+  /* background-color: rgba(255, 0, 0, 0.279); */
+  width: 130px;
+  height: 100%;
+}
+.invoiceFormDateTimeSelectDateBox input {
+  cursor: pointer;
+  width: 100px;
+  height: 100%;
+  border: none;
+  font-weight: bold;
+  color: var(--primary);
+  outline: none;
+  background-color: transparent;
+}
+.adminPurchaseEntryAddStonesMainBox {
+  display: grid;
+  width: 800px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  align-items: center;
+  justify-items: flex-start;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.adminPurchaseEntryAddStonesMainBox input,
+.adminPurchaseEntryAddStonesMainBox label,
+.adminPurchaseEntryAddStonesMainBox button {
+  margin: 10px;
+  width: 110px;
+  font-size: 12px;
+}
+.adminPurchaseEntryAddStonesMainBox button {
+  justify-self: center;
+  /* width: 80px; */
+  font-size: 10px;
+  white-space: nowrap;
+}
+.adminPurchaseEntryAddStonesMainBox h4 {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.adminPurchaseEntryAddStonesMainTitleBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.adminPurchaseEntryAddStonesMainTitleBox p {
+  margin: 5px;
+}
+.adminCreatePurchaseLotOuterBox {
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.adminCreatePurchaseLotInnerBox {
+  /* width: 50%; */
+  /* height: 50%; */
+  /* background-color: bisque; */
+
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  height: 400px;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+.adminCreatePurchaseLotInnerBox label {
+  font-size: 14px;
+}
+.adminCreatePurchaseLotInnerBox input {
+  width: 150px;
+  height: 30px;
+  padding: 2px 5px;
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.adminCreatePurchaseLotInnerBox input:focus,
+.adminCreatePurchaseLotInnerBox input:hover,
+.adminCreatePurchaseLotInnerBox select:focus,
+.adminCreatePurchaseLotInnerBox select:hover {
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.adminCreatePurchaseLotInnerBoxSelectBox {
+  display: flex;
+  padding: 5px 10px;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.adminCreatePurchaseLotInnerBox table {
+  border-collapse: collapse;
+}
+.adminCreatePurchaseLotInnerBox table tr th {
+  font-size: 13px;
+  padding: 10px;
+  white-space: nowrap;
+}
+.adminCreatePurchaseLotInnerBox table thead tr {
+  /* margin: 10px; */
+  background-color: #f1f5f9;
+  border-bottom: 3px solid rgba(128, 128, 128, 0.1);
+}
+.adminCreatePurchaseLotInnerBox table tbody tr td {
+  font-size: 12px;
+  padding: 10px;
+  white-space: nowrap;
+}
+.adminCreatePurchaseLotInnerTableItemsBox {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.adminCreatePurchaseLotInnerTableItemsBox:hover {
+  background-color: #ced4da;
+  cursor: pointer;
+}
+.adminCreatePurchaseLotInnerBox h4 {
+  text-align: left;
+  margin: 10px;
+  color: var(--primary);
+  text-decoration: underline;
+}
+.adminCreatePurchaseLotInnerBox thead th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+.addSingleStockStoneMainBox {
+  display: flex;
+}
+.addSingleStockStoneItemBox {
+  margin-right: 10px;
+}
+.addSingleStockStoneMainBox input {
+  margin: 5px;
+  width: 150px;
+}
+.addSingleStockStoneMainLabelsBox p {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  margin: 10px;
+  padding: 2px 5px;
+  align-items: center;
+  margin-left: 0px;
+  padding-left: 0px;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+.adminPurchaseEntryAddStoneDiamondOptionBox {
+  display: flex;
+  height: 60px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.adminPurchaseEntryAddStoneDiamondOptionBox th {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminPurchaseEntryAddStoneDiamondOptionBox th:hover {
+  color: var(--btnHoverPrimary);
+}
+
+@media (max-width: 1000px) {
+  .adminInviceAddedProductsTotalOuterBox {
+    display: flex;
+    flex-direction: column;
+  }
+  .adminInvoiceAddProductsOptionsInnerBox {
+    overflow: auto;
+    margin: 10px;
+  }
+  .adminInvoiceAddProductsOptionsInnerBox table td {
+    padding: 10px;
+  }
+  .adminInvoiceOpenEditOuterGridBox {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    white-space: wrap;
+  }
+  .adminInvoiceOpenEditInnerGridItem {
+    white-space: wrap;
+  }
+  .adminPurchaseEntryAddStonesMainBox {
+    width: 100%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* width: 350px; */
+  }
+}

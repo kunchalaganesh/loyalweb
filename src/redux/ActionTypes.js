@@ -1,0 +1,4 @@
+export const ADMIN_LOGGED_IN = "ADMIN_LOGGED_IN";
+export const ADMIN_LOGGED_OUT = "ADMIN_LOGGED_OUT";
+export const FETCH_ALL_PRODUCTS = "FETCH_ALL_PRODUCTS";
+export const ADD_TOKEN = "ADD_TOKEN";

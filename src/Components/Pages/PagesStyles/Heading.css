@@ -1,0 +1,839 @@
+.navbarDesktopMainOuterBox {
+  position: fixed;
+  width: 100%;
+  /* background-color: var(--primary); */
+  /* background-color: rgb(48, 41, 41); */
+  /* background-color: rgb(40, 39, 39); */
+  background-color: #38414a;
+  height: 70px;
+  padding: 0 100px;
+  top: 0;
+  box-sizing: border-box;
+  color: white;
+  z-index: 20000;
+  font-size: 14px;
+  box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+}
+.navbarDesktopMainInnerBox {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.navbarDesktopMainLeftBox {
+  display: flex;
+  align-items: center;
+}
+.companyLogoLarge {
+  width: 200px;
+  margin-right: 20px;
+}
+.companyLogoSmall {
+  display: none;
+}
+.comapanysNameHeading {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: double underline;
+  margin-right: 40px;
+  white-space: "nowrap";
+}
+.navbarDesktopDropdownBoxesMain {
+  width: 250px;
+  height: 100px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.createNewDropdownButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.7);
+  /* border: 2px solid yellow; */
+}
+.createNewDropdownMain {
+  width: 150px;
+  position: relative;
+  height: 70px;
+  transition: all ease-in-out 1s;
+}
+.createNewDropdownMain2 {
+  position: static;
+}
+.createNewDropdownItems {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: black;
+}
+.createNewDropdownMainList li {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: var(--fontSecondary);
+}
+.createNewDropdownMainList li p {
+  margin: 0 10px;
+  white-space: no-wrap;
+}
+/* GPT */
+/* CSS for the dropdown animation */
+.createNewDropdownItems {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+
+.createDropdownItemsActive {
+  max-height: 450px; /* Adjust the maximum height as needed */
+}
+.createNewDropdownItems ul li {
+  list-style: none;
+  text-align: left;
+  padding: 10px 10px;
+}
+.createNewDropdownItems ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 5px 0;
+}
+.createNewDropdownItems2 ul li {
+  padding: 0px;
+}
+.createNewDropdownItems ul li:hover {
+  cursor: pointer;
+  background-color: var(--bgHoverPrimary);
+  /* font-weight: bold; */
+}
+.createNewDropdownItems2 ul li:hover {
+  cursor: pointer;
+  background-color: white;
+  /* font-weight: bold; */
+}
+.createNewDropdownButtonActive {
+  background-color: var(--secondary);
+  /* opacity: 0.75; */
+}
+/* GPT */
+.fullWidth {
+  position: absolute;
+  left: 2%;
+  right: 10%;
+  width: 95vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  height: 400px;
+  text-align: left;
+  /* background-image: url("../../Images/navbarPattern.jpg"); */
+  /* background-size: cover; */
+}
+
+.createNewDropdownItems2 ul li {
+  list-style: none;
+  margin: 10px 0;
+  margin-top: 0;
+  white-space: nowrap;
+}
+.createNewDropdownItemsHead2 h5 {
+  color: var(--fontPrimary);
+  font-size: 15px;
+}
+.createNewDropdownItems2 ul {
+  padding: 0;
+}
+.createNewDropdownItems2 ul li p {
+  width: max-content;
+  font-size: 14px;
+  color: var(--fontSecondary);
+  text-decoration: none;
+}
+.createNewDropdownItems2 ul li p:hover {
+  color: var(--primary);
+  /* font-weight: bold; */
+}
+
+/* Right Section */
+.navbarDesktopMainRightBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbarDesktopSearchbarMainBox {
+  /* width: 180px; */
+  height: 80px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.navbarDesktopSearchbarMainBox input {
+  height: 38px;
+  padding-left: 20px;
+  background-color: var(--secondary);
+  border: none;
+  outline: none;
+  border-radius: 30px 30px 30px 30px;
+  color: white;
+}
+.navbarDesktopSearchbarMainBox input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.navbarDesktopSearchbarIcon {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+.navbarDesktopIconBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 25px;
+  cursor: pointer;
+}
+.appListDropdown {
+  position: absolute;
+  right: 0%;
+  /* width: 300px; */
+  width: 320px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.navbarDesktopAppsListDropdownOuterBox {
+  display: grid;
+  /* padding: 10px; */
+  padding: 5px;
+  /* grid-gap: 10px; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(3, 1fr);
+}
+.navbarDesktopAppsListDropdownBox:hover {
+  background-color: var(--bgHoverPrimary);
+}
+.navbarDesktopAppsListDropdownBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.navbarDesktopAppsListDropdownBox p {
+  margin: 5px;
+}
+.countriesDropdown {
+  position: absolute;
+  /* left: 2%; */
+  right: 0%;
+  /* bottom: 100%; */
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* padding-left: 40px; */
+  /* padding: 0 10px; */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.navbarDesktopCountriesDropdownOuterBox {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbarDesktopCountriesDropdownBox:hover {
+  background-color: var(--bgHoverPrimary);
+}
+.navbarDesktopCountriesDropdownBox {
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 500px; */
+  /* margin: 20px; */
+}
+.notificationsDropdown {
+  position: absolute;
+  right: 0%;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.navbarDesktopNotificationIcon {
+  position: relative;
+}
+.navbarDesktopNotificationIconAlert {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+.navbarDesktopNotificationsDropdownOuterBox {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-y: scroll;
+}
+.navbarDesktopNotificationsDropdownClearBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  cursor: default;
+}
+.navbarDesktopNotificationsDropdownClearBox p:last-child {
+  font-size: 12px;
+  cursor: pointer;
+}
+.navbarDesktopNotificationsDropdownClearBox p:last-child:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.navbarDesktopNotificationDropdownBox {
+  display: flex;
+  justify-content: space-between;
+}
+.navbarDesktopNotificationDropdownUserBox {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-content: space-between;
+  justify-items: center;
+  text-align: start;
+  padding: 10px 10px;
+}
+.navbarDesktopNotificationDropdownUserBox:hover {
+  background-color: var(--bgHoverPrimary);
+}
+.navbarDesktopNotificationDropdownImageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbarDesktopNotificationDropdownImageBox {
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+.navbarDesktopNotificationDropdownImage {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.navbarDesktopNotificationDropdownParaBox p:last-child {
+  font-size: 12px;
+  margin: 5px;
+  margin-left: 10px;
+  color: var(--fontTertiary);
+}
+.navbarDesktopNotificationDropdownParaBox p {
+  margin: 5px;
+  margin-left: 10px;
+  color: var(--fontSecondary);
+}
+.navbarDesktopNotificationDropdownShowAllBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+}
+.navbarDesktopNotificationDropdownShowAllBox:hover {
+  background-color: var(--bgHoverPrimary);
+}
+.navbarDesktopDropdownProfilePic {
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.adminProfileDropdown {
+  position: absolute;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.navbarDesktopAdminProfileDropdownBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.navbarDesktopAdminProfileDropdownItemsBox {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 4fr;
+  /* justify-items: center; */
+  align-content: space-between;
+  text-align: start;
+  /* padding: 10px; */
+  color: var(--fontSecondary);
+}
+.navbarDesktopAdminProfileDropdownItemsBox:last-child {
+  margin-bottom: 5px;
+  /* border-bottom: 1px solid rgba(128, 128, 128, 0.2); */
+}
+.navbarDesktopAdminProfileDropdownItemsBox:hover {
+  background-color: var(--bgHoverPrimary);
+}
+.navbarDesktopAdminProfileDropdownIconBox {
+  display: flex;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.navbarDesktopAdminProfileDropdownBox p {
+  margin: 0 10px;
+  white-space: nowrap;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.none {
+  display: none;
+}
+.navbarDesktopCountriesDropdownBox p {
+  margin: 5px;
+}
+
+/* Settings Drawer Below */
+.adminDrawerMainIconsBox {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  border-bottom: 2px solid grey;
+  padding-bottom: 1.5rem;
+}
+.adminDrawerOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+.adminDrawerOverlay2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+.adminSettingsDrawer {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  z-index: 4;
+  color: black;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-out;
+}
+.adminSettingsDrawer2 {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  z-index: 4;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s ease-out;
+}
+.adminDrawerOpen {
+  right: 0px;
+}
+.adminDrawerOpen2 {
+  left: 0px;
+}
+.adminDrawerIconsOpen {
+  border: 2px solid yellow;
+  left: -18%;
+}
+.adminDrawerIcons:hover {
+  cursor: pointer;
+  color: #00acc1;
+}
+.adminDrawerChatsMainBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adminDrawerChatsMainBox button {
+  color: gray;
+  padding: 5px 10px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.adminDrawerChatsInput {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1.5rem 0;
+  margin-bottom: 0.5rem;
+  width: 200px;
+  border: 1px solid grey;
+  /* height: 30px; */
+  /* padding: 0.5rem 1 rem; */
+  border-radius: 30px;
+}
+.adminDrawerChatsInput input {
+  border: none;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 5px;
+  width: 140px;
+  margin: 2px;
+}
+.adminDrawerChatsInput input:focus {
+  outline: none;
+}
+.adminDrawerAllChatsBox {
+  text-align: left;
+  width: 100%;
+}
+.adminDrawerAllChatsBox p,
+.adminDrawerAllChatsBox li {
+  margin: 1rem 2rem;
+}
+.adminDrawerAllChatsBoxHeading {
+  font-weight: bolder;
+  font-size: 12px;
+}
+.adminDrawerAllChatsBoxContent {
+  font-size: 12px;
+  padding-left: 2rem;
+  list-style-type: circle;
+}
+.adminDrawerTasksMainBox {
+  text-align: left;
+  padding: 2rem;
+}
+.adminDrawerTasksButtonBox {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.adminDrawerTasksButtonBox button {
+  padding: 0.5rem 1rem;
+  width: 85%;
+  background-color: #00acc1;
+  border-color: transparent;
+  border-radius: 8px;
+  color: white;
+}
+.adminDrawerNoteBox {
+  /* width: 80%; */
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 14px;
+  word-spacing: 0.3rem;
+  font-weight: 400;
+  background-color: rgba(255, 166, 0, 0.3);
+}
+.radioBtns {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+.radioBtns label {
+  font-weight: normal;
+}
+/* switch cases */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 20px;
+  margin: 0px 5px;
+}
+
+.switch.light .checkbox:checked + .slider {
+  background-color: #2196f3;
+}
+
+.switch.light .checkbox:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.switch.light .slider:before {
+  background-color: #ffffff;
+}
+
+.switch.light .slider:after {
+  background-color: #ffffff;
+}
+
+.switch.dark .checkbox:checked + .slider {
+  background-color: #2196f3;
+}
+
+.switch.dark .checkbox:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.switch.dark .slider:before {
+  background-color: #ffffff;
+}
+
+.switch.dark .slider:after {
+  background-color: #ffffff;
+}
+
+.checkbox {
+  display: none;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: background-color 0.2s ease;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 2px;
+  bottom: 4px;
+  background-color: #ffffff;
+  transition: transform 0.2s ease;
+  border-radius: 50%;
+}
+
+.slider:after {
+  position: absolute;
+  content: "";
+  font-size: 14px;
+  color: #757575;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  transition: color 0.2s ease;
+}
+
+.slider.dark:after {
+  content: "";
+}
+/* Settings Drawer Above */
+
+/* Second Navbar Css Below */
+.adminDesktopSecondNavbarMainBox {
+  width: 100%;
+  position: fixed;
+  margin-top: 70px;
+  background-color: white;
+  height: 55px;
+  padding: 0 100px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--fontPrimary);
+  z-index: 10000;
+  box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+}
+.adminDesktopSecondNavbarItemsBox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 40px;
+}
+.adminDesktopSecondNavbarItemsBox p {
+  margin: 0 10px;
+  font-size: 14px;
+  /* color: var(--fontPrimary); */
+}
+.adminDesktopSecondNavbarItemsBox:hover {
+  color: var(--primary);
+}
+.adminDesktopSecondNavbarDropdownReportsBox {
+  position: relative;
+}
+.adminDesktopSecondNavbarDropdownReportsBox p {
+  padding: 20px 0px;
+}
+.adminDesktopSecondNavbarDropdownReportsItemsMainBox {
+  position: absolute;
+  background-color: white;
+  display: none;
+  padding: 10px;
+
+  /* height: 50px;s */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.adminDesktopSecondNavbarDropdownReportsBox:hover
+  .adminDesktopSecondNavbarDropdownReportsItemsMainBox {
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0;
+  z-index: 2;
+}
+.adminDesktopSecondNavbarDropdownReportsBox:hover
+  .adminDesktopSecondNavbarDropdownReportsItemsMainBox
+  p {
+  font-size: 14px;
+  padding: 5px 20px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.adminDesktopSecondNavbarDropdownReportsBox:hover
+  .adminDesktopSecondNavbarDropdownReportsItemsMainBox
+  p:hover {
+  cursor: pointer;
+  color: var(--primary);
+}
+.adminDesktopSecondNavbarDropdownReportsBox:hover
+  .adminDesktopSecondNavbarDropdownReportsItemsMainBox
+  p:last-child {
+  margin-bottom: 20px;
+}
+
+/* Breadcrump Css Below */
+.adminDesktopBreadCrumpMainBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-inline: 100px; */
+  padding-inline: 70px;
+  width: 100%;
+
+  /* position: fixed;    */
+  /* margin-top: 125px; */
+  background-color: transparent;
+  height: 55px;
+  box-sizing: border-box;
+  color: var(--fontPrimary);
+}
+.adminDesktopBreadCrumpLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminDesktopBreadCrumpLinks p {
+  color: var(--fontTertiary);
+  font-size: 14px;
+  padding: 5px;
+}
+.adminDesktopBreadCrumpLinks p:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.mobileDrawerMainBox {
+  display: none;
+}
+/* Add this CSS to your component's styles or a CSS file */
+.menuIcon {
+  color: white;
+  transition: transform 2000ms ease; /* Adjust the transition duration as needed */
+}
+
+.menuIcon.isOpen {
+  transform: rotate(90deg); /* Adjust the rotation angle as needed */
+}
+.adminPanelCompanyLogoMobile {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .navbarDesktopMainOuterBox {
+    width: 100vw;
+    overflow: hidden;
+  }
+  .navbarDesktopDropdownBoxesMain {
+    display: none;
+  }
+  .navbarDesktopMainOuterBox {
+    padding: 5px;
+  }
+  .companyLogoLarge {
+    display: none;
+  }
+  .companyLogoSmall {
+    display: block;
+    margin-left: 20px;
+  }
+  .comapanysNameHeading {
+    display: none;
+  }
+  .navbarDesktopMainRightBox {
+    display: none;
+  }
+  .mobileDrawerMainBox {
+    display: block;
+    position: absolute;
+    right: 20px;
+    /* padding-top: 40px; */
+  }
+  .responsiveDrawerMainOuterBox {
+    margin-top: 60px;
+  }
+  .adminDesktopSecondNavbarMainBox {
+    display: none;
+  }
+  .adminDesktopBreadCrumpMainBox {
+    /* display: none; */
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin: 20px 0;
+    box-sizing: border-box;
+  }
+  .adminPanelCompanyLogoMobile {
+    display: flex;
+  }
+}

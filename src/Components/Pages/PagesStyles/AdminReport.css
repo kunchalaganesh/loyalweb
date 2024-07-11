@@ -1,0 +1,111 @@
+.cashReportUpperBox {
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cashReportUpperBox div {
+  margin: 10px;
+}
+.cashReportUpperBox label {
+  margin: 10px;
+  margin-left: 0;
+}
+.cashReportUpperBox input {
+  height: 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 2px 5px;
+  border: 1px solid #ced4da;
+  box-shadow: 0px 0px 1px rgba(2, 168, 181, 0.2);
+  outline: none;
+}
+.cashReportUpperBox input:focus,
+.cashReportUpperBox input:hover {
+  /* cursor: pointer; */
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.cashReportLowerBox {
+  width: 100%;
+  margin-top: 30px;
+  /* height: 500px; */
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+  /* background-color: brown; */
+}
+.cashReportLowerItemBox {
+  text-align: left;
+  /* width: 500px; */
+  /* height: 50px; */
+  width: 45%;
+  margin: 20px;
+  margin-top: 0;
+  box-sizing: border-box;
+  /* border: 2px solid green; */
+  /* background-color: blanchedalmond; */
+}
+.cashReportLowerItemBox table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cashReportLowerItemBox table tbody tr {
+  width: 100%;
+  border: 2px solid grey;
+}
+.cashReportLowerItemBox table tbody tr td {
+  /* width: 100%; */
+  border: 2px solid grey;
+}
+
+/* new CSS Report */
+.adminReportTableMainBox {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.adminReportTable {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #f2f2f2; /* light grey background */
+  box-sizing: border-box;
+}
+.adminReportTable th,
+.adminReportTable td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* border color */
+  box-sizing: border-box;
+}
+
+.adminReportTable th {
+  background-color: #666; /* dark grey background for table headers */
+  color: white;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.adminReportTable td {
+  font-size: 14px;
+}
+
+.adminReportTable tr:nth-child(even) {
+  background-color: #ddd; /* dark grey background for even rows */
+  box-sizing: border-box;
+}
+
+.adminReportTable tr:nth-child(odd) {
+  background-color: #f2f2f2; /* light grey background for odd rows */
+}
+
+/* Hover effect */
+
+.adminReportTable tr:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+/* new CSS Report */

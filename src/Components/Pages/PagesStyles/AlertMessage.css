@@ -1,0 +1,30 @@
+.alertMessageMainBox {
+  width: 100%;
+  position: relative;
+}
+
+.alert {
+  width: 100%;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 100;
+}
+
+.success {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.error {
+  background-color: #f44336;
+  color: #ffffff;
+}
+.warning {
+  background-color: goldenrod;
+  color: #ffffff;
+}

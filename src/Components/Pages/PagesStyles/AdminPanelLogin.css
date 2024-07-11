@@ -1,0 +1,182 @@
+.adminPanelLoginOuterBox {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminPanelLoginInnerBox {
+  background-color: white;
+  border-radius: 5px;
+}
+.adminPanelLoginBox {
+  padding: 30px 40px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.adminPanelLoginLogo {
+  height: 60px;
+}
+.adminPanelLoginLogoStatementOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 20px; */
+}
+.adminPanelLoginLogoStatement {
+  width: 70%;
+  color: var(--fontTertiary);
+}
+.adminPanelLoginLogoStatement p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.adminPanelLoginFormLabelBox {
+  text-align: start;
+}
+.adminPanelLoginFormLabelInnerBox {
+  padding: 10px 0px;
+}
+.adminPanelLoginFormLabelInnerBox label {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--fontSecondary);
+}
+.adminPanelLoginFormInputBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.adminPanelLoginFormInputBox input {
+  width: 250px;
+  height: 35px;
+  padding: 2px 5px;
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  background-color: transparent;
+  border-radius: 5px;
+  display: flex;
+}
+.adminPanelLoginFormInputBox input:hover,
+.adminPanelLoginFormInputBox input:focus {
+  box-shadow: 0px 0px 3px var(--primary);
+  /* cursor: pointer; */
+}
+.adminPanelLoginFormInputCheckBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  margin: 10px 0px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.adminPanelLoginFormInputInnerBox {
+  display: flex;
+  width: 250px;
+}
+.adminPanelLoginFormInputInnerBox input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.adminPanelLoginFormInputInnerBox button {
+  outline: none;
+  border-color: 1px solid grey;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* .adminPanelLoginFormInputInnerBox button:hover,
+.adminPanelLoginFormInputInnerBox button:focus {
+   box-shadow: 0px 0px 3px var(--primary); 
+
+} */
+.adminPanelLoginFormButtonOuterBox {
+  margin: 30px 0px;
+  margin-bottom: 30px;
+}
+.adminPanelLoginFormButtonInnerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adminPanelLoginFormButtonInnerBox {
+  width: 100%;
+  height: 35px;
+  padding: 2px 5px;
+  outline: none;
+  box-sizing: border-box;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+.adminPanelLoginFormButtonInnerBox:hover,
+.adminPanelLoginFormButtonInnerBox:focus {
+  /* box-shadow: 0px 0px 3px var(--primary); */
+  background-color: var(--btnHoverPrimary);
+}
+.adminPanelLoginFormButtonInnerBox button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+}
+.passwordVisible {
+  box-shadow: 0px 0px 3px var(--redBtnHover);
+  color: var(--redBtnHover);
+}
+.passwordHidden {
+  box-shadow: 0px 0px 3px green;
+  color: green;
+}
+.adminPanelLoginFormShowPasswordIcon {
+  font-size: 17px;
+}
+.adminPanelLoginFormRegisterBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.adminPanelLoginFormRegisterBox p {
+  margin: 5px;
+  font-size: 14px;
+  color: gray;
+}
+.adminPanelLoginFormRegisterBox h5 {
+  margin: 5px;
+  margin-top: 10px;
+  font-size: 12px;
+  position: relative;
+  width: fit-content;
+  cursor: pointer;
+  color: gray;
+}
+.adminPanelLoginFormRegisterBox h5:hover {
+  color: black;
+  /* color: green; */
+}
+.adminPanelLoginFormRegisterBox h5::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0;
+  /* background-color: var(--primary); */
+  /* background-color: dodgerblue; */
+  background-color: orange;
+  transition: width 0.3s ease-out;
+}
+.adminPanelLoginFormRegisterBox h5:hover::after {
+  width: 100%; /* Full width on hover */
+}

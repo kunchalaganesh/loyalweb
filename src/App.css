@@ -1,0 +1,76 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.img {
+  height: 20vh;
+  width: 30vw;
+} */
+.feedbackBox,
+.feedbackBoxClicked {
+  width: 35px;
+  height: 90px;
+  box-sizing: border-box;
+  position: fixed;
+  color: white;
+  border-radius: 0 22px 22px 0;
+  top: 37vh;
+  right: 0;
+  z-index: 3;
+  background-color: #1a4c2d;
+  padding: 0.2rem;
+  overflow: hidden;
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: x-small;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.feedbackBoxClicked {
+  width: 350px;
+  height: 50vh;
+  top: 20vh;
+  right: 0;
+  /* bottom: 20vh; */
+}

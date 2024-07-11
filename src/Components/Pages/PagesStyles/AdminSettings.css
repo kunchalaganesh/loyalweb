@@ -1,0 +1,55 @@
+.dailyRateAddMainBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dailyRateAddInnerBox {
+  width: 500px;
+  /* border-radius: 5px; */
+  padding: 10px;
+  background-color: white;
+  overflow-x: auto;
+}
+.dailyRateAddTableBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dailyRateAddTableBox table {
+  border-collapse: collapse;
+  width: 550px;
+  border: 1px solid var(--primary);
+}
+.dailyRateAddTableBox table th {
+  padding: 10px;
+  margin: 5px;
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+  background-color: var(--primary);
+  color: white;
+}
+.dailyRateAddTableBox table td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  border-right: 1px solid rgba(128, 128, 128, 0.3);
+  margin: 5px;
+  background-color: var(--tertiary);
+  color: var(--fontPrimary);
+}
+.dailyRateAddTableBox table td input {
+  width: 100px;
+  height: 22px;
+  margin: 0px 10px;
+}
+.dailyRateAddTableBox table td button {
+  background-color: var(--primary);
+  color: white;
+  /* border: none; */
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+.dailyRateAddTableBox table td button:hover,
+.dailyRateAddTableBox table td button:focus {
+  background-color: var(--btnHoverPrimary);
+}
